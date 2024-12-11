@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Registro y Gestión de Animales</title>
+  <script src="app/main.js"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #4CAF50;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    form:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    form div {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #4CAF50;
+      box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    ul#animal-list {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    ul#animal-list li {
+      background-color: #ffffff;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    ul#animal-list li:hover {
+      transform: translateX(10px);
+      background-color: #f9f9f9;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #388E3C;
+    }
+
+    #error {
+      margin-top: 10px;
+      color: #f44336;
+      font-size: 0.9rem;
+    }
+
+    form {
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+</body>
+</html>
