@@ -1,8 +1,8 @@
 <h1 align="center">Sistema de Registro y Gestión de Animales 🐾</h1>
 
 <p align="left">
-  <a href="README_ES.md" target="_blank">
-    Ver README en Español
+  <a href="README.md" target="_blank">
+    View README in English
   </a>
 </p>
 
@@ -66,8 +66,8 @@ A través de este proyecto, aprendí a:
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/JordanMedinaOrtiz/SistemadeRegistroyGestiondeAnimales.git
-cd SistemadeRegistroyGestiondeAnimales
+git clone https://github.com/JordanMedinaOrtiz/animal-registration-and-management-system-nodejs.git
+cd animal-registration-and-management-system-nodejs
 ```
 
 2. Instala las dependencias:
