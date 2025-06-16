@@ -34,17 +34,17 @@ The main objective of this project was:
 <h1 align="center">Main Features</h1>
 
 - **User Registration:**
-- Save users to the database with passwords encrypted using bcrypt.
+  - Save users to the database with passwords encrypted using bcrypt.
 
 - **Path Protection:**
-- Only authenticated users can add animals.
+  - Only authenticated users can add animals.
 
 - **Animal Management:**
-- Allows authenticated users to add animals with name and type information.
+  - Allows authenticated users to add animals with name and type information.
 
 - **Security Best Practices:**
-- Secure password encryption.
-- Secure tokens for user sessions.
+  - Secure password encryption.
+  - Secure tokens for user sessions.
 
 ---
 
@@ -80,8 +80,6 @@ npm install
 - Create a `.env` file in the project root.
 
 ``` - Define the following variables:
-
-```env
 SECRET=your_secret_key_for_jwt
 DATABASE=your_connection_path_to_mongodb
 ```
@@ -95,9 +93,9 @@ node api.js
 5. Test the API:
 
 - Use tools like Postman or Insomnia to test the following endpoints:
-- `POST /register`: Register a new user.
-- `POST /login`: Log in and obtain a JWT token.
-- `POST /animals`: Add an animal (requires authentication with the JWT token).
+  - `POST /register`: Register a new user.
+  - `POST /login`: Log in and obtain a JWT token.
+  - `POST /animals`: Add an animal (requires authentication with the JWT token).
 
 ---
 
