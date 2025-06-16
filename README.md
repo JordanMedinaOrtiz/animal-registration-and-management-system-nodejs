@@ -1,97 +1,105 @@
-# Sistema de Registro y Gestión de Animales 🐾
+<h1 align="center">Animal Registration and Management System 🐾</h1>
 
-Este proyecto es una aplicación backend que permite a los usuarios registrarse, iniciar sesión y agregar animales con los datos de nombre y tipo. Fue desarrollado para aprender a implementar autenticación segura utilizando bcrypt para encriptar contraseñas y jsonwebtoken para manejar tokens de acceso con buenas prácticas.
+<p align="left">
+<a href="README_ES.md" target="_blank">
+Ver README en Español
+</a>
+</p>
+
+<p>
+This project is a backend application that allows users to register, log in, and add animals with name and type data. It was developed to learn how to implement secure authentication using bcrypt to encrypt passwords and jsonwebtoken to manage access tokens with best practices.
+</p>
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="NodeJS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" height="40" alt="Express" />
+<h1 align="center">Technologies Used</h1>
+<div align="center"> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="NodeJS"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" height="40" alt="Express" />
 </div>
 
 ---
+<h1 align="center">Objective</h1>
 
-## 🎯 Objetivo
+The main objective of this project was:
 
-El objetivo principal de este proyecto fue:
-
-1. Aprender a implementar autenticación segura con JWT.
-2. Practicar el manejo de contraseñas encriptadas con bcrypt.
-3. Consolidar conocimientos sobre Express y MongoDB mediante la creación de un sistema de autenticación funcional.
-
----
-
-## 🚀 Características Principales
-
-- **Registro de usuarios:**
-  - Guarda usuarios en la base de datos con contraseñas encriptadas utilizando bcrypt.
-
-- **Protección de rutas:**
-  - Solo los usuarios autenticados pueden agregar animales.
-
-- **Gestión de animales:**
-  - Permite a los usuarios autenticados agregar animales con información de nombre y tipo.
-
-- **Buenas prácticas de seguridad:**
-  - Encriptación segura de contraseñas.
-  - Tokens seguros para sesiones de usuario.
+1. Learn how to implement secure authentication with JWT.
+2. Practice handling passwords encrypted with bcrypt.
+3. Consolidate knowledge of Express and MongoDB by creating a functional authentication system.
 
 ---
 
-## 📚 Aprendizajes Adquiridos
+<h1 align="center">Main Features</h1>
 
-A través de este proyecto, aprendí a:
+- **User Registration:**
+- Save users to the database with passwords encrypted using bcrypt.
 
-- Configurar y utilizar bcrypt para encriptar y verificar contraseñas.
-- Crear y validar tokens JWT con jsonwebtoken.
-- Proteger rutas en Express utilizando express-jwt.
-- Integrar autenticación con operaciones CRUD en MongoDB.
-- Mejorar la estructura y modularidad del código backend.
+- **Path Protection:**
+- Only authenticated users can add animals.
+
+- **Animal Management:**
+- Allows authenticated users to add animals with name and type information.
+
+- **Security Best Practices:**
+- Secure password encryption.
+- Secure tokens for user sessions.
 
 ---
 
-## 🧩 Instalación
+<h1 align="center">Skills Acquired</h1>
 
-1. Clona este repositorio en tu máquina local:
+Through this project, I learned to:
+
+- Configure and use bcrypt to encrypt and verify passwords.
+- Create and validate JWT tokens with jsonwebtoken.
+- Secure routes in Express using express-jwt.
+- Integrate authentication with CRUD operations in MongoDB.
+- Improve the structure and modularity of the backend code.
+
+---
+
+<h1 align="center">Installation</h1>
+
+1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/JordanMedinaOrtiz/SistemadeRegistroyGestiondeAnimales.git
-cd SistemadeRegistroyGestiondeAnimales
+git clone https://github.com/JordanMedinaOrtiz/animal-registration-and-management-system-nodejs.git
+cd animal-registration-and-management-system-nodejs
 ```
 
-2. Instala las dependencias:
+2. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-3. Configura el entorno:
+3. Set up the environment:
 
-- Crea un archivo `.env` en la raíz del proyecto.
-- Define las siguientes variables:
+- Create a `.env` file in the project root.
+
+``` - Define the following variables:
 
 ```env
-SECRET=tu_llave_secreta_para_jwt
-DATABASE=tu_ruta_de_conexión_a_mongodb
+SECRET=your_secret_key_for_jwt
+DATABASE=your_connection_path_to_mongodb
 ```
 
-4. Inicia el servidor:
+4. Start the server:
 
 ```bash
 node api.js
 ```
 
-5. Prueba la API:
+5. Test the API:
 
-- Usa herramientas como Postman o Insomnia para probar los siguientes endpoints:
-  - `POST /register`: Registrar un nuevo usuario.
-  - `POST /login`: Iniciar sesión y obtener un token JWT.
-  - `POST /animals`: Agregar un animal (requiere autenticación con el token JWT).
+- Use tools like Postman or Insomnia to test the following endpoints:
+- `POST /register`: Register a new user.
+- `POST /login`: Log in and obtain a JWT token.
+- `POST /animals`: Add an animal (requires authentication with the JWT token).
 
 ---
 
-Este proyecto me permitió profundizar en la implementación de autenticación segura y protección de rutas en aplicaciones backend. Aprendí a utilizar herramientas esenciales para garantizar buenas prácticas de seguridad, como el uso de bcrypt y JWT, y a combinarlas con operaciones CRUD en un sistema real.
+This project allowed me to delve deeper into implementing secure authentication and path protection in backend applications. I learned how to use essential tools to ensure good security practices, such as using bcrypt and JWT, and how to combine them with CRUD operations in a real system.
+<img src="animal-registration-and-management-system-nodejs.png" alt="Animal Registration and Management System" title="Animal Registration and Management System"/> 
