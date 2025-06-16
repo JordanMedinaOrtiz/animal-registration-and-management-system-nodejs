@@ -1,11 +1,18 @@
-# Sistema de Registro y Gestión de Animales 🐾
+<h1 align="center">Sistema de Registro y Gestión de Animales 🐾</h1>
 
+<p align="left">
+  <a href="README_ES.md" target="_blank">
+    Ver README en Español
+  </a>
+</p>
+
+<p>
 Este proyecto es una aplicación backend que permite a los usuarios registrarse, iniciar sesión y agregar animales con los datos de nombre y tipo. Fue desarrollado para aprender a implementar autenticación segura utilizando bcrypt para encriptar contraseñas y jsonwebtoken para manejar tokens de acceso con buenas prácticas.
+</p>
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
+<h1 align="center">Tecnologías Utilizadas</h1>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="NodeJS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB"/>
@@ -15,7 +22,7 @@ Este proyecto es una aplicación backend que permite a los usuarios registrarse,
 
 ---
 
-## 🎯 Objetivo
+<h1 align="center">Objetivo</h1>
 
 El objetivo principal de este proyecto fue:
 
@@ -25,7 +32,7 @@ El objetivo principal de este proyecto fue:
 
 ---
 
-## 🚀 Características Principales
+<h1 align="center">Características Principales</h1>
 
 - **Registro de usuarios:**
   - Guarda usuarios en la base de datos con contraseñas encriptadas utilizando bcrypt.
@@ -42,7 +49,7 @@ El objetivo principal de este proyecto fue:
 
 ---
 
-## 📚 Aprendizajes Adquiridos
+<h1 align="center">Aprendizajes Adquiridos</h1>
 
 A través de este proyecto, aprendí a:
 
@@ -54,7 +61,7 @@ A través de este proyecto, aprendí a:
 
 ---
 
-## 🧩 Instalación
+<h1 align="center">Instalación</h1>
 
 1. Clona este repositorio en tu máquina local:
 
