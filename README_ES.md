@@ -102,3 +102,4 @@ node api.js
 ---
 
 Este proyecto me permitió profundizar en la implementación de autenticación segura y protección de rutas en aplicaciones backend. Aprendí a utilizar herramientas esenciales para garantizar buenas prácticas de seguridad, como el uso de bcrypt y JWT, y a combinarlas con operaciones CRUD en un sistema real.
+<img src="animal-registration-and-management-system-nodejs.png" alt="Animal Registration and Management System" title="Animal Registration and Management System"/> 
